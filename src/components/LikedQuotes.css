@@ -1,0 +1,77 @@
+.liked-quotes-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.liked-quotes-heading {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.liked-quotes-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.liked-quote-content {
+  font-size: 18px;
+  margin: 0;
+}
+
+.liked-quote-author {
+  font-size: 14px;
+  margin: 5px 0 0 0;
+  color: #666;
+}
+
+
+.liked-quote {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .remove-quote-button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  .remove-quote-button:hover {
+    background-color: #d9534f;
+  }
+.quote-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .quote-button {
+    padding: 5px 10px;
+    background-color: #25274D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .quote-button:hover {
+    background-color: #2D2E5B;
+  }
+  
